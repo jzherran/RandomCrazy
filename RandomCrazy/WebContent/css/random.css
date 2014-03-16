@@ -1,0 +1,198 @@
+@CHARSET "UTF-8";
+
+#my_randoms {
+	float: left;
+	margin-left: 87px;
+	margin-top: 20px;
+	clear: none;
+	background: #CE2826;
+	background: rgba(206, 40, 38, 1);
+	width: 150px;
+	height: 440px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#txt_name {
+	float: left;
+	height: 461px;
+	margin: 0px 0px 0px 10px;
+	clear: none;
+	width: 300px;
+}
+
+#box_names {
+	float: left;
+	margin-top: 10px;
+	clear: none;
+	margin-right: 0px;
+	width: 300px;
+	height: 396px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background: #FFFFFF;
+	background: rgba(255, 255, 255, 1);
+	border-style: Solid;
+	border-color: #B3B3B3;
+	border-color: rgba(179, 179, 179, 1);
+	border-width: 1px;
+	overflow-y: auto;
+}
+
+#txt_result {
+	float: left;
+	height: 461px;
+	margin-left: 10px;
+	margin-top: 0px;
+	clear: none;
+	width: 400px;
+}
+
+#box_result {
+	margin: 10px 87px 0px 0px;
+	clear: both;
+	background: #FFFFFF;
+	background: rgba(255, 255, 255, 1);
+	border-style: Solid;
+	border-color: #B3B3B3;
+	border-color: rgba(179, 179, 179, 1);
+	border-width: 1px;
+	width: 400px;
+	height: 438px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	clear: both;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#box_btn_save {
+	float: left;
+	height: 30px;
+	margin-left: 339px;
+	margin-top: 8px;
+	clear: both;
+	width: 100px;
+}
+
+#box_btn_random {
+	float: left;
+	height: 30px;
+	margin-left: 10px;
+	margin-top: 8px;
+	clear: none;
+	width: 100px;
+}
+
+.combo_input {
+	display: inline-block;
+	float: left;
+	background: #FFFFFF;
+	background: rgba(255, 255, 255, 1);
+	border-style: Solid;
+	border-color: #B3B3B3;
+	border-color: rgba(179, 179, 179, 1);
+	border-width: 1px;
+	width: 300px;
+	height: 30px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#name_insert {
+	font-family: 'robotothin';
+	border: none;
+	width: 254px;
+	margin: 5px;
+	height: 20px;
+	float: left;
+}
+
+.insert {
+	width: 34px;
+	height: 27px;
+	background-image: url("../images/buttons.png");
+	background-position: 45px 88px;
+	border: 0px;
+	border-radius: 5px;
+	clear: none;
+	margin: 1px;
+}
+
+.insert:hover {
+	background-image: url("../images/buttons.png");
+	background-position: 45px 138px;
+}
+
+.insert:active {
+	background-image: url("../images/buttons.png");
+	background-position: 45px 88px;
+}
+
+.txt_random {
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.style_button {
+	font-size: 14px;
+	color: #FFFFFF;
+	color: rgb(255, 255, 255);
+}
+
+.button {
+	background: #F15A24;
+	background: rgba(241, 90, 36, 1);
+	width: 100px;
+	height: 30px;
+	border: 0px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px
+}
+
+.button:hover {
+	background: #C93C11;
+	background: rgba(201, 60, 17, 1);
+}
+
+.button:active {
+	background: #F9380B;
+	background: rgba(249, 56, 11, 1);
+}
+
+.div_list_name {
+	margin: 5px 5px 0px 20px;
+	color: #777;
+	font-size: 14px;
+}
+
+#list_randoms {
+	height: 404px;
+	margin-top: 30px;
+	overflow-y: auto;
+}
+
+.div_list_random {
+	margin: 5px 5px 0px 5px;
+	color: whitesmoke;
+	font-size: 12px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.delete_row{
+	height: 16px;
+	width: 16px;
+	float: right;
+	background-image: url("../images/trash.png");
+	background-repeat: no-repeat;
+}

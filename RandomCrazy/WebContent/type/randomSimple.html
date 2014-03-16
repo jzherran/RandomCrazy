@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RandomCrazy - Simple!!!</title>
+	<link rel="stylesheet" href="../css/index.css" />
+	<link rel="stylesheet" href="../css/components.css" />
+	<link rel="stylesheet" href="../css/random.css" />
+	<script type="text/javascript" src="../javascript/general.js"></script>
+	<script type="text/javascript" src="../javascript/randomSimple.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+	<link rel="icon" type="image/png" href="../images/favicon.png">
+</head>
+<body>
+	<input id="randomType" type="hidden" value="0">
+	<div id='box1' class='header'>
+		<div id="splash"></div>
+		<div id="return">
+			<img id="img_return" onclick="returnIndex();"
+				onmouseover="showHover(this.id,'msj_return');"
+				onmouseout="showHover(this.id,'msj_return');"
+				src="../images/btn_return.png"> <label id="msj_return">Volver</label>
+		</div>
+	</div>
+	<div id='box' class='clearfix'>
+		<div id="container">
+			<div id="container_frame">
+				<div id='my_randoms' class='clearfix'>
+					<label class="txt_random">My randoms</label>
+					<div id="list_randoms"></div>
+				</div>
+				<div id='txt_name' class='clearfix'>
+					<label>Nombres:</label>
+					<div class="combo_input">
+						<input id="name_insert" onkeypress="return run(event);">
+						<button id="insert_data" class="insert"
+							onclick="insertDataRow('name_insert','box_names',null);"></button>
+					</div>
+					<div id='box_names' class='clearfix'>
+					</div>
+				</div>
+				<div id='txt_result' class='clearfix'>
+					<label style="text-align: right; width: 100%;">Resultados</label>
+					<div id='box_result' class='clearfix'></div>
+				</div>
+				<div id='box_btn_save' class='clearfix'>
+					<button class="style_button button">Guardar</button>
+				</div>
+				<div id='box_btn_random' class='clearfix'>
+					<button class="style_button button" onclick="randomListSingle();">Random</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id='box4' class='footer'>
+		<div id='box5' class='clearfix'
+			onclick="window.open('http://www.od1.co');"></div>
+	</div>
+</body>
+</html>
