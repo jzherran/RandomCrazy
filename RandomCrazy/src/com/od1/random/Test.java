@@ -8,8 +8,8 @@ public class Test implements Comparable<Test>{
 	private long id ;
 	
 	public static void main(String[] args) {
-		Integer a = 7;
-		Integer b = 5;
+		Integer a = 13;
+		Integer b = 10;
 		System.out.println(a.compareTo(b));
 		Test t1 = new Test( Integer.MAX_VALUE );
 		Test t2 = new Test( Long.MAX_VALUE );
